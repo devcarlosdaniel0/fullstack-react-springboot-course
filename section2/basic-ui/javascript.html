@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impar ou par</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script>
+      const randomNumber = Math.floor(Math.random() * 100);
+
+      const numberElement = document.createElement("h1");
+      numberElement.innerHTML = `Numero gerado: ${randomNumber}`;
+
+      const resultElement = document.createElement("p");
+
+      randomNumber % 2 == 0
+        ? (resultElement.innerHTML = "Par")
+        : (resultElement.innerHTML = "Impar");
+
+      const root = document.getElementById("root");
+
+      root.appendChild(numberElement);
+      root.appendChild(resultElement);
+    </script>
+  </body>
+</html>
