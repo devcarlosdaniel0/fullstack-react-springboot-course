@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import "./footer.css";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="footer">
       Built with
@@ -17,6 +17,4 @@ const Footer = () => {
       </a>
     </footer>
   );
-};
-
-export default Footer;
+}
