@@ -34,7 +34,7 @@ body {
     font-weight: var(--font-weight-bold);
     font-size: 20px;
     background-color: var(--bg-light);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(97, 85, 85, 0.1);
 }
 
 .container {
@@ -45,6 +45,12 @@ body {
     max-width: 1152px;
     padding: var(--padding-y) var(--padding-x);
 }
+
+/*
+.my-heading {
+    background-color: black;
+}
+*/
 
 .link {
     display: flex;
