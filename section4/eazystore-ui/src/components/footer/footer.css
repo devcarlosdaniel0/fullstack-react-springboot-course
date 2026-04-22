@@ -17,12 +17,18 @@
     color: #1a202c;
 }
 
-/*
+
 .my-heading {
     text-align: center;
+}
+
+.primary-color {
     color: #5B21B6;
 }
-*/
+
+.secundary-color {
+    color: #dc2626;
+}
 
 .footer-icon {
     color: #dc2626;

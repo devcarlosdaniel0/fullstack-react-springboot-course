@@ -4,12 +4,14 @@ import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import "./footer.css";
 
 export default function Footer() {
+  const isActive = Math.random() > 0.5;
+  
   return (
     <>
       <h1
         style={{
           textAlign: "center",
-          color: "#5B21B6",
+          color: isActive ? "#5B21B6" : "#333"
         }}
       >
         Demo of global CSS scope from footer
