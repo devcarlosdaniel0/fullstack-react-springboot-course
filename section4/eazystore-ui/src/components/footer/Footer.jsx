@@ -15,12 +15,10 @@ export default function Footer() {
   
   return (
     <>
-      <H1>
+      {/* <H1>
         Demo of styled components from footer
       </H1>
-
-      <EazyButton $primary>Submit</EazyButton>
-
+      <EazyButton $primary>Submit</EazyButton> */}
       {/*
         <h1
         style={{

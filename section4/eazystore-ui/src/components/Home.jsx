@@ -14,12 +14,11 @@ export default function Home() {
 
   return (
     <>
-      <h1 className={`my-heading ${isActive ? "primary-color" : "secundary-color"}`}>
+      {/* <h1 className={`my-heading ${isActive ? "primary-color" : "secundary-color"}`}>
         Demo of global CSS from Home
       </h1>
 
-      <EazyButton>Home</EazyButton>
-
+      <EazyButton>Home</EazyButton> */}
       {/*<h1 style={h1Styling}>Demo of global CSS from Home</h1>*/}
       {/*<h1 className="my-heading">Demo of global CSS from Home</h1>*/}
 
