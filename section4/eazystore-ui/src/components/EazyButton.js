@@ -9,6 +9,14 @@ const EazyButton = styled.button`
   cursor: pointer;
   display: block;
   margin: 0 auto;
+
+  &:hover {
+    background-color: blue;
+  }
+
+  &:focus {
+    outline: 2px solid white;
+  }
 `;
 
 export default EazyButton;
