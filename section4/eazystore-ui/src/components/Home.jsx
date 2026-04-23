@@ -2,6 +2,7 @@ import React from "react";
 import PageHeading from "./PageHeading";
 import ProductListings from "./ProductListings";
 import products from "../data/Products";
+import EazyButton from "./EazyButton";
 
 const h1Styling = {
   textAlign: "center",
@@ -16,6 +17,8 @@ export default function Home() {
       <h1 className={`my-heading ${isActive ? "primary-color" : "secundary-color"}`}>
         Demo of global CSS from Home
       </h1>
+
+      <EazyButton>Home</EazyButton>
 
       {/*<h1 style={h1Styling}>Demo of global CSS from Home</h1>*/}
       {/*<h1 className="my-heading">Demo of global CSS from Home</h1>*/}

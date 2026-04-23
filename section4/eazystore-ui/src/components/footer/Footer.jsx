@@ -2,13 +2,27 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import "./footer.css";
+import styled from "styled-components"
+import EazyButton from "../EazyButton";
+
+const H1 = styled.h1`
+color: #5B21B6;
+text-align: center;
+`;
 
 export default function Footer() {
   const isActive = Math.random() > 0.5;
   
   return (
     <>
-      <h1
+      <H1>
+        Demo of styled components from footer
+      </H1>
+
+      <EazyButton>Submit</EazyButton>
+
+      {/*
+        <h1
         style={{
           textAlign: "center",
           color: isActive ? "#5B21B6" : "#333"
@@ -16,6 +30,8 @@ export default function Footer() {
       >
         Demo of global CSS scope from footer
       </h1>
+      */}
+      
       {/*<h1 className="my-heading">Demo of global CSS scope from footer</h1>*/}
 
       <footer className="footer">
