@@ -19,7 +19,7 @@ export default function Footer() {
         Demo of styled components from footer
       </H1>
 
-      <EazyButton>Submit</EazyButton>
+      <EazyButton $primary>Submit</EazyButton>
 
       {/*
         <h1

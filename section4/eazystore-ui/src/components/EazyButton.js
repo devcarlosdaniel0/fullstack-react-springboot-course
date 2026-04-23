@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const EazyButton = styled.button`
-  background-color: #5b21b6;
+  background-color: ${(props) => props.$primary ? "#5b21b6" : "red"};
   color: white;
   padding: 10px 20px;
   border: none;
